@@ -1,0 +1,56 @@
+body{
+    background-color: plum;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.mina-margin-top{
+    margin-top: 10px;
+}
+.mina-bucket{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 150px;
+    background-color: black;
+    border: 5px solid plum;
+    border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;  
+    color: palevioletred;
+    padding: 50px;
+}
+.mina-bucket:hover{
+    background-color: palevioletred;
+    color: white;
+}
+#first-nav{
+    background-color: palevioletred;
+    border-bottom: 5px solid black;
+}
+#first-banner{
+    background-color: rgb(36, 65, 36);
+    color: palevioletred;
+    padding-top: 1em;
+    padding-bottom: 1em;   
+}
+#first-banner, p{
+    margin-top: 0px;
+    margin-bottom: 0px;  
+}
+
+#nav-image{
+    position: absolute;
+    top: 10px;
+    left: 60%;
+    z-index: 9999;
+}
+#label{
+    background-color: black;
+}
+#label p{
+    color: rgb(255, 23, 23);
+}
+#news-default .mina-bucket{
+    border-top: 0px solid black;
+}

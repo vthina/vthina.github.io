@@ -97,8 +97,11 @@ body{
 }
 @media (max-width: 768px) {
     /* mina bucket */
+    #bucket-0 .mina-bucket{
+        width: 50%;
+    }
     #bucket-0 .mina-bucket img{
-        width: 100%;
+        width: 60%;
         height: auto;
     }
 }
